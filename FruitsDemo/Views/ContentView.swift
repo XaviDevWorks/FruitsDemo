@@ -5,7 +5,7 @@ import SwiftUI
 //TODO: Create the navigation
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, fuits!")
             .padding()
     }
 }
