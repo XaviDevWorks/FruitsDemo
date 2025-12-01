@@ -16,6 +16,7 @@ struct AddFruitView: View {
             Section(header: Text("Image")) {
                 EmojiPicker(emoji: $newFruit.emoji)
                     //TODO: .listRowInsets(EdgeInsets())
+                    .listRowInsets(EdgeInsets())
             }
         }
     }
